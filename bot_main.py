@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import exchange
 
-TOKEN = "1392488110:AAF58cKrHgy7SiZjj28Av7Qr2q4w4G1FNFM"
+TOKEN = "[HERE THE HTTP API TOKEN]"
 
 def extract_number(text):
 	return text.split()[1].strip()
